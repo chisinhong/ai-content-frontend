@@ -53,7 +53,7 @@ function App() {
         <label className="block text-gray-700 font-semibold">平台</label>
         <select
           value={platform}
-          onChange={(e) => setPlatform(e.target.value)}
+          onChange={(e) => setPlatform(e.target.value)} // 修正：setPlatform
           className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <option value="Instagram">Instagram</option>
